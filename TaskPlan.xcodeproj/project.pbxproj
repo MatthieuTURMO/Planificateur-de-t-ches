@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0808FD5B1E3889390052AF9A /* Urgence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808FD5A1E3889390052AF9A /* Urgence.swift */; };
+		0808FD5D1E38A6A00052AF9A /* Taches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808FD5C1E38A6A00052AF9A /* Taches.swift */; };
+		081270911E38B2B60046D8A3 /* TachesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081270901E38B2B60046D8A3 /* TachesTableViewCell.swift */; };
+		081270931E38BC3F0046D8A3 /* TachesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081270921E38BC3F0046D8A3 /* TachesTableViewController.swift */; };
 		08D812FC1E379EC00094E4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D812FB1E379EC00094E4C4 /* AppDelegate.swift */; };
 		08D812FE1E379EC00094E4C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D812FD1E379EC00094E4C4 /* ViewController.swift */; };
 		08D813011E379EC00094E4C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D812FF1E379EC00094E4C4 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0808FD5A1E3889390052AF9A /* Urgence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urgence.swift; sourceTree = "<group>"; };
+		0808FD5C1E38A6A00052AF9A /* Taches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taches.swift; sourceTree = "<group>"; };
+		081270901E38B2B60046D8A3 /* TachesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TachesTableViewCell.swift; sourceTree = "<group>"; };
+		081270921E38BC3F0046D8A3 /* TachesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TachesTableViewController.swift; sourceTree = "<group>"; };
 		08D812F81E379EC00094E4C4 /* TaskPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D812FB1E379EC00094E4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D812FD1E379EC00094E4C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				08D812FB1E379EC00094E4C4 /* AppDelegate.swift */,
+				0808FD5A1E3889390052AF9A /* Urgence.swift */,
 				08D812FD1E379EC00094E4C4 /* ViewController.swift */,
+				0808FD5C1E38A6A00052AF9A /* Taches.swift */,
+				081270901E38B2B60046D8A3 /* TachesTableViewCell.swift */,
+				081270921E38BC3F0046D8A3 /* TachesTableViewController.swift */,
 				08D812FF1E379EC00094E4C4 /* Main.storyboard */,
 				08D813021E379EC00094E4C4 /* Assets.xcassets */,
 				08D813041E379EC00094E4C4 /* LaunchScreen.storyboard */,
@@ -202,7 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				08D812FE1E379EC00094E4C4 /* ViewController.swift in Sources */,
+				081270931E38BC3F0046D8A3 /* TachesTableViewController.swift in Sources */,
 				08D812FC1E379EC00094E4C4 /* AppDelegate.swift in Sources */,
+				081270911E38B2B60046D8A3 /* TachesTableViewCell.swift in Sources */,
+				0808FD5B1E3889390052AF9A /* Urgence.swift in Sources */,
+				0808FD5D1E38A6A00052AF9A /* Taches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				08D813171E379EC00094E4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08D813181E379EC00094E4C4 /* Build configuration list for PBXNativeTarget "TaskPlanTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				08D8131A1E379EC00094E4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
